@@ -20,18 +20,20 @@
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
-            <div class="container" style="margin-left:0; ">
+            <div style="margin-left:5%;">
                 <a class="navbar-brand js-scroll-trigger" href="#page-top">Yeonjin</a>
+            </div>
+            <div class="container" style="margin-right:0; padding-right:0;">
                 <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fas fa-bars"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">CERTIFICATES</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">EDUCATION</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">AWARDS</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">EXPERIENCE</a></li>
+                        <!-- <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a></li> -->
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">CERTIFICATES</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#education">EDUCATION</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#awards">AWARDS</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#experience">EXPERIENCE</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">STACK</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">PROJECTS</a></li>
                     </ul>
@@ -39,14 +41,16 @@
             </div>
         </nav>
         <!-- Masthead-->
-        <header class="masthead bg-primary text-white text-center">
-            <div class="container d-flex align-items-center flex-column" id="about">
+        <header class="masthead bg-primary text-white text-center" style="padding:14rem 0 3rem 0;">
+            <div class="container d-flex align-items-center flex-column">
                 <!-- Masthead Avatar Image-->
+                <h2 class="masthead-heading text-center text-uppercase" style="font-size: 2.5rem; color:palevioletred">About me</h2>
+                <!-- Icon Divider-->
                 <img class="masthead-avatar" src="static/assets/img/me.jpg" alt="" style="border:5px solid palevioletred; border-radius: 50%;">
                 <!-- Masthead Heading-->
-                <h4 class="masthead-heading text-uppercase mb-1"><i class="fas fa-code"></i>&nbsp;김연진&nbsp;<i class="fas fa-code"></i></h4>
-                <h5 class="masthead-heading text-uppercase mb-1"><i class="fas fa-birthday-cake"></i>&nbsp;1998.09.19&nbsp;</h5>
-                <h5 class="masthead-heading mb-1"> <i class="far fa-envelope"></i>&nbsp;yj980919k@gmail.com</h5>
+                <h4 class="masthead-heading text-center text-uppercase mb-1"><i class="fas fa-code"></i>&nbsp;김연진&nbsp;<i class="fas fa-code"></i></h4>
+                <h5 class="masthead-heading test-center text-uppercase mb-1"><i class="fas fa-birthday-cake"></i>&nbsp;1998.09.19&nbsp;</h5>
+                <h5 class="masthead-heading test-center mb-1"> <i class="far fa-envelope"></i>&nbsp;yj980919k@gmail.com</h5>
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
@@ -55,101 +59,121 @@
                 </div>
             </div>
         </header>
+
         <!-- Portfolio Section-->
         <section class="page-section portfolio" id="portfolio">
+            <h2 class="masthead-heading text-center text-uppercase" style="font-size: 2.5rem;">Certificates</h2>
             <div class="container">
                 <!-- Portfolio Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom">
                     <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
                 </div>
-                <!-- Portfolio Grid Items-->
-                <div class="row">
-                    <!-- Portfolio Item 1-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="static/assets/img/portfolio/cabin.png" alt="" />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 2-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="static/assets/img/portfolio/cake.png" alt="" />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 3-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="static/assets/img/portfolio/circus.png" alt="" />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 4-->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="static/assets/img/portfolio/game.png" alt="" />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 5-->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/safe.png" alt="" />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 6-->
-                    <div class="col-md-6 col-lg-4">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="static/assets/img/portfolio/submarine.png" alt="" />
-                        </div>
-                    </div>
-                </div>
+                <p style="text-align:center; font-family:'paybooc-Bold'; font-size:large;">
+                    <i class="fas fa-check"></i>&nbsp; 한국사능력검정시험 1급 - 2020.01.
+                </p>
+                <p style="text-align:center; font-family:'paybooc-Bold'; font-size:large; padding-right:2%;"><i class="fas fa-check"></i>&nbsp; 정보처리기사 자격증 - 2020.12</p>
+                <p style="text-align:center; font-family:'paybooc-Bold'; font-size:large;padding-right:8%;"><i class="fas fa-check"></i>&nbsp; TOFEL 90 - 2019.02</p>
             </div>
         </section>
-        <!-- About Section-->
-        <!-- <section class="page-section bg-primary text-white mb-0" id="about"> -->
+
+        <!-- Portfolio Section-->
+        <section class="page-section" id="education">
+            <h2 class="masthead-heading text-center text-uppercase" style="font-size: 2.5rem;">Education</h2>
             <div class="container">
-                <!-- About Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
+                <!-- Portfolio Section Heading-->
                 <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom">
                     <div class="divider-custom-line"></div>
                 </div>
-                <!-- About Section Content-->
-                <div class="row">
-                    <div class="col-lg-4 ml-auto"><p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p></div>
-                    <div class="col-lg-4 mr-auto"><p class="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p></div>
-                </div>
-                <!-- About Section Button-->
-                <div class="text-center mt-4">
-                    <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/themes/freelancer/">
-                        <i class="fas fa-download mr-2"></i>
-                        Free Download!
-                    </a>
-                </div>
+                <p style="text-align:center; font-family:'paybooc-Bold'; font-size:large;">
+                    <i class="fas fa-school"></i>&nbsp;동국대학교 영어통번역학과&융합소프트웨어 전공 (2017.03 ~ curr)
+                </p>
+                <p style="text-align:center; font-family:'paybooc-Bold'; font-size:large;"><i class="fas fa-graduation-cap"></i>&nbsp; 대전외국어고등학교 영어과 졸업 (2014.03 ~ 2017.02)</p>
             </div>
         </section>
+
+        <!-- Portfolio Section-->
+        <section class="page-section" id="awards">
+            <h2 class="masthead-heading text-center text-uppercase" style="font-size: 2.5rem;">Awards</h2>
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                </div>
+                <p style="text-align:center; font-family:'paybooc-Bold'; font-size:large;">
+                    <i class="fas fa-medal"></i>&nbsp;2019 멋쟁이 사자처럼 해커톤 FLETA 대표상 - 2위
+                </p>
+                <p style="text-align:center; font-family:'paybooc-Bold'; font-size:large;">
+                    <i class="fas fa-medal"></i>&nbsp; 2019 멋쟁이 사자처럼 소속 5개 대학 연합 해커톤 '새뜻톤' 우승 - 1위
+                </p>
+                <p style="text-align:center; font-family:'paybooc-Bold'; font-size:large;">
+                    <i class="fas fa-star"></i>&nbsp;2019 1학기/2학기 삼성소프트웨어인력양성장학
+                </p>
+                <p style="text-align:center; font-family:'paybooc-Bold'; font-size:large;">
+                    <i class="fas fa-star"></i>&nbsp;2019 1학기/2학기 성적우수장학 
+                </p>
+            </div>
+        </section>
+
+        <!-- Portfolio Section-->
+        <section class="page-section" id="experience">
+            <h2 class="masthead-heading text-center text-uppercase" style="font-size: 2.5rem;">experience</h2>
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                </div>
+                <p style="text-align:center; font-family:'paybooc-Bold'; font-size:large;">
+                    <i class="fas fa-circle"></i>&nbsp;2019 멋쟁이 사자처럼 해커톤 FLETA 대표상 - 2위
+                </p>
+                <p style="text-align:center; font-family:'paybooc-Bold'; font-size:large;">
+                    <i class="fas fa-medal"></i>&nbsp; 2019 멋쟁이 사자처럼 소속 5개 대학 연합 해커톤 '새뜻톤' 우승 - 1위
+                </p>
+                <p style="text-align:center; font-family:'paybooc-Bold'; font-size:large;">
+                    <i class="fas fa-star"></i>&nbsp;2019 1학기/2학기 삼성소프트웨어인력양성장학
+                </p>
+                <p style="text-align:center; font-family:'paybooc-Bold'; font-size:large;">
+                    <i class="fas fa-star"></i>&nbsp;2019 1학기/2학기 성적우수장학 
+                </p>
+            </div>
+        </section>
+ 
+        <!-- Portfolio Section-->
+        <section class="page-section" id="stack">
+            <h2 class="masthead-heading text-center text-uppercase" style="font-size: 2.5rem;">stack</h2>
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                </div>
+                <p style="text-align:center; font-family:'paybooc-Bold'; font-size:x-large;">
+                    &nbsp;Programming Languages
+                </p>
+                <p style="text-align:center; font-family:'paybooc-Bold'; font-size:large;">
+                    <i class="fas fa-check"></i>&nbsp;C/C++
+                </p>
+                <p style="text-align:center; font-family:'paybooc-Bold'; font-size:large;">
+                    <i class="fas fa-check"></i>&nbsp;Python
+                </p>
+                <p style="text-align:center; font-family:'paybooc-Bold'; font-size:large;">
+                    <i class="fas fa-check"></i>&nbsp;HTML5/CSS
+                </p>
+                <p style="text-align:center; font-family:'paybooc-Bold'; font-size:large;">
+                    <i class="fas fa-check"></i>&nbsp;SQL
+                </p>
+                <p style="text-align:center; font-family:'paybooc-Bold'; font-size:x-large;">
+                    &nbsp;Framework
+                </p>
+                <p style="text-align:center; font-family:'paybooc-Bold'; font-size:large;">
+                    <i class="fas fa-check"></i>&nbsp;Django 
+                </p>
+            </div>
+        </section>
+
         <!-- Contact Section-->
         <section class="page-section" id="contact">
             <div class="container">
